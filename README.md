@@ -64,7 +64,7 @@ $ npm run test:e2e
 ```
 ## Set up MongoDB Database
 
-Go to [MongoDB](https://www.mongodb.com/online) and Sign Up with your google or github account. after that set the Network Access to accept all IPs. Go to Database > Connect to Cluster > Select your driver and version (the driver is Nodejs Version 4.1 or later) copy  your connection string and insert it in the file app.module.ts : MongooseModule.forRoot('') and Replace <password> with the password for the user.
+Go to [MongoDB](https://www.mongodb.com/online) and Sign Up with your google or github account. after that set the Network Access to accept all IPs. Go to Database > Connect to Cluster > Select your driver and version (the driver is Nodejs Version 4.1 or later) copy  your connection string and insert it in the file app.module.ts : MongooseModule.forRoot('') and Replace "<password>" with the password for the user.
 
 ## Swager
 
