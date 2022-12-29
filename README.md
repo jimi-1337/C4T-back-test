@@ -24,7 +24,11 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+1. Create an authentication with JWT
+2. movie CRUD
+3. Access management
+  - Public: Retrieve the list of films
+  - Private (auth): Creation / modification / deletion of a movie
 
 ## Installation
 
@@ -43,31 +47,27 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
 ```
 
 ## Test
 
 ```bash
-# unit tests
+#test mode
 $ npm run test
+
+#test watch mode
+$ npm run  test:watch
 
 # e2e tests
 $ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
+## Set up MongoDB Database
 
-## Support
+Go to [MongoDB](https://www.mongodb.com/online) and Sign Up with your google or github account. after that set the Network Access to accept all IPs. Go to Database > Connect to Cluster > Select your driver and version (the driver is Nodejs Version 4.1 or later) copy  your connection string and insert it in the file app.module.ts : MongooseModule.forRoot('') and Replace <password> with the password for the user.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Swager
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+  - The link to swager is : http://localhost:3000/api.
+  - All Private routes, you will find in front of them an icon of a lock.
+  - All routes that need any cind of data you will find an exemple of the data needed in the route just click on it.
