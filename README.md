@@ -69,5 +69,5 @@ Go to [MongoDB](https://www.mongodb.com/online) and Sign Up with your google or 
 ## Swager
 
   - The link to swager is : http://localhost:3000/api.
-  - All Private routes, you will find in front of them an icon of a lock.
+  - For all the private routes, you will find in front of them an icon of a lock.
   - All routes that need any cind of data you will find an exemple of the data needed in the route just click on it.
